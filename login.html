@@ -33,7 +33,7 @@ font-family: Google Sans, verdana, Roboto, Arial;
             try {
                 const user = await Parse.User.logIn(username, password);
                 console.log("User logged in successfully:", user);
-                alert("You have been logged in. Press OK to continue");
+                alert("Welcome", username);
                 
                 // Redirect to the social media posts page
                 window.location.href = "post.html"; // Change to the actual page URL
