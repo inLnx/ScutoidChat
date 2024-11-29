@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            h1,h2,h3,h4,h5,h6,p{
+font-family: Google Sans, verdana, Roboto, Arial; 
+
+
+            }
+            </style>
+        <script>
+            function autoRefresh() {
+                window.location = window.location.href;
+            }
+            setInterval('autoRefresh()', 5000);
+        </script>
+        <title>My Apps</title>
+    </head>
+    <body>
+  <h1>ScutoidChat<h1> 
+    <img src="img/netportal.png" width="50" height="50"></img>
+    <h5><em>a new way to share</em></h5>
+        <p>Social Media in a file, under 512MB of storage</p>
+        <ul>
+                <li>Cloaking (Coming soon)</li>
+                <li>Sell Items (Coming soon) </li>
+                <li>Share Images (coming soon)</li>
+                <li>Be Anonymous</li>
+                <li>Unblockable </li>
+        </ul>
+        <a href="login.html">Log in</a>
+        <a href="signup.html">Sign Up</a>
+    </body>
