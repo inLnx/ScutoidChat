@@ -128,7 +128,7 @@ function triggerNotification(postContent, username) {
         console.error('Error triggering notification:', error);
     });
 }
-
+var title ="ScutoidChat has notification acces"
 // Function to display a notification
 function showNotification(title, message) {
     if (Notification.permission === "granted") {
@@ -137,7 +137,7 @@ function showNotification(title, message) {
             icon: 'notification_icon.png', // Optional: Path to your icon
         });
     } else {
-        console.log("No Notifications.");
+        console.log("did not allow any notifications");
     }
 }
 
@@ -164,7 +164,7 @@ function createPost() {
 
         fetchPosts(); // Refresh the posts list
     }).catch(error => {
-        console.error("Error creating post:", error);
+        console.error("Error creating post:", errwhenor);
         alert("Error creating post: " + error.message);
     });
 }
