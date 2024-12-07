@@ -1,3 +1,5 @@
+### ScutoidChat 1.01
++ Started implementing new Scutoid Account System
 ### What is this
 A chat app I made in vanilla HTML, JS, and CSS.
 ### Why should I not clone the repo
@@ -7,9 +9,8 @@ This is on my own server and you are using my server credits when you clone it.
 + Sign Up
 + Sign In
 + Post
- ### Why so serious nyuk nyuk nyuk
- Get out. Door is right there.
-
+ ### :D
+ :|
 
 
 
